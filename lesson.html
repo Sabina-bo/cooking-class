@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SB kitchen</title>
+	<meta name="description" content="SB Kitchenのレッスン内容">
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+	<link rel="stylesheet" href="css/flickity.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="css/lesson.css">
+</head>
+
+<body>
+	<div class="steam">
+		<header class="header1">
+			<p id="page-top"><a href="#"><span>Page Top</span></a></p>
+			<nav id="navi" class="wrapper">
+				<h1><a href="#"><img src="image/logo-5-2.png" alt=""></a></h1>
+				<ul class="navi">
+					<li><a href="index.html" class="cta"><span>Top</span></a></li>
+					<li><a href="about.html" class="cta"><span>About</span></a></li>
+					<li><a href="lesson.html" class="cta"><span>Lesson</span></a></li>
+					<li><a href="contact.html" class="cta"><span>Contact</span></a></li>
+				</ul>
+				<div class="burger-container"><img class="burger" src="image/hmb-1.png" width="50"></div>
+				<button class="hmb-btn" aria-label="メニューを開きます">
+					<span></span>
+				</button>
+			</nav>
+		</header>
+
+
+		<h2 class="Lesson-color">Lesson</h2>
+		<p class="steam-text">新たな料理の世界への一歩を踏み出しませんか？料理教室SBへようこそ。<br>
+				美味しい料理の世界を探索し、楽しい料理の旅を始めましょう。<br>
+				<br>
+				当教室のレッスンは、料理はもちろん様々なプロから学べるレッスンを
+				ご用意しております。<br>
+				基本的に講師（インストラクター）と <br>マンツーマンで質疑応答、ご受講頂けます。<br>
+				<br>
+				初めて受講頂く方は、体験レッスンから初めて頂けます。<br>
+				初回のみ500円で受講可能です。</p>
+	</div>
+	<section id="Lesson">
+
+		<div class="wrapper">
+
+			<h3 class="Lesson-color">選べるLessonスタイル</h3>
+			<div class="lesson1">
+				<div class="lesson1-text">
+					<h4 class="Lesson-color">1Dayレッスン</h4>
+					<p>特別な器具を使わないのでご自宅でも再現できるレシピのレッスン。未経験の方も、経験ありの方もそれぞれに合ったアドバイスをさせていただきます。お一人でも、お友達と複数人でも参加可能です。<br>
+					～初回のみ500円で受講可能～
+									</p>
+				</div>
+				<img src="image/lesson-1.png" width="400" height="400" alt="">
+			</div>
+			<div class="lesson2">
+				<img src="image/lesson-2.png" width="450" height="450" alt="子供の写真">
+				<div class="lesson2-text">
+					<h4 class="Lesson-color">キッズレッスン</h4>
+					<p>４歳のお子様から参加可能なレッスン。<br>お子様と一緒に出来る包丁を使わない簡単レシピを紹介します。</p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section id="table">
+		<div class=" wrapper">
+			<h3 class="Lesson-color">料金表</h3>
+			<table>
+				<tr>
+					<th colspan="2" class="Lesson-color">初回限定!!1Dayレッスン</th>
+					<td class="Lesson-color">５００円（税込み）</td>
+				</tr>
+
+			</table>
+			<table>
+				<tr>
+					<th class="Lesson-color">コース</th>
+					<td>料金（税込み）</td>
+				</tr>
+				<tr>
+					<th class="Lesson-color">1Dayレッスン</th>
+					<td>１回　5,000円　<br>6回　20,000円　<br>有効期限（3か月）</td>
+				</tr>
+				<tr>
+					<th class="Lesson-color">キッズレッスン</th>
+					<td>１回　3,000円　<br>6回　16,000円　<br>有効期限（3か月）</td>
+				</tr>
+			</table>
+		</div>
+		<div class="btn-container">
+			<a href="contact.html"><button class="button">お問合せは<br>こちら</button></a>
+		</div>
+	</section>
+
+	<header>
+		<div class="container">
+			<ul>
+				<li>
+					<a href=""><i class="fab fa-instagram-square"></i></a>
+					<a href=""><i class="fab fa-facebook-square"></i></a>
+					<a href=""><i class="fab fa-twitter-square"></i></a>
+				</li>
+			</ul>
+			<h3>Copyright &copy;SB kitchen<br>
+			SB All Rights Reserved.</h3>
+		</div>
+	</header>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+
+	<script>
+		'use strict';
+		$(function () {
+			$('.main-carousel').flickity({
+				// options
+				autoPlay: 3000,
+				// contain: true, // 要素の余分なスクロールを防ぐ
+				freeScroll: true, // 特定の位置で固定させずにスクロール
+				cellAlign: 'left',
+				wrapAround: true,
+			});
+		});
+	</script>
+
+
+</body>
+</html>

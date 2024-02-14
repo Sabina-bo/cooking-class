@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SB kitchen</title>
+	<meta name="description" content="SB Kitchenについて">
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+	<link rel="stylesheet" href="css/flickity.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+	<header class="header1">
+		<p id="page-top"><a href="#"><span>Page Top</span></a></p>
+		<nav id="navi" class="wrapper">
+			<h1><a href="index.html"><img src="image/logo-5-2.png" alt=""></a></h1>
+			<ul class="navi">
+				<li><a href="index.html" class="cta"><span>Top</span></a></li>
+				<li><a href="about.html" class="cta"><span>About</span></a></li>
+				<li><a href="lesson.html" class="cta"><span>Lesson</span></a></li>
+				<li><a href="contact.html" class="cta"><span>Contact</span></a></li>
+			</ul>
+			<div class="burger-container"><img class="burger" src="image/hmb-1.png" width="50"></div>
+			<button class="hmb-btn" aria-label="メニューを開きます">
+				<span></span>
+			</button>
+		</nav>
+	</header>
+	<!-- 追加 -->
+	<p class="btn-Nav">
+	            <span></span>
+	            <span></span>
+	            <span></span>
+	        </p>
+	<div class="sb-title wrapper">
+		<div class="About">
+			<div class="logo">
+				About
+			</div>
+
+			<h2>「SB Kitchen」について</h2>
+
+			<p class="About-Top">
+		本を見てもイマイチ分からない。料理を作ってもおいしく出来ない。<br>
+		レパートリーを増やしたいなど料理に関する疑問を1人1人改善したいという思いから<br>
+		SB Kitchenを開校致しました。<br>
+		本には載っていない料理のコツやポイントをつかみ、「美味しいおうちごはん」作りのお手伝い<br>
+		が出来たらと思っています。1レッスン毎のお支払いなので気負いなくお気軽に受講頂けます。
+		</p>
+
+			<div class="main-about">
+				<h2>教師紹介</h2>
+				<div class="instructor-1">
+					<div class="tag1">
+						<p>こんにちは。
+		<br>「SB Kitchen」教師の大阪　太郎です。
+		<br><br>
+		当ホームページにアクセスして頂きありがとうございます。
+<br><br>
+		毎日の食卓が楽しくなり、おもてなしが手軽にできるレシピと
+		テーブルコーディネートを日々創作しております。
+<br><br>
+		食を通して、たくさんの方々の笑顔と幸せ、健康を
+		広めていけたらと心から願っております。
+<br><br>
+		今後も、たくさんの創作、提案をしていきますので
+		どうぞよろしくお願い致します。</p>
+					</div>
+					<div class="tag2">
+						<img src="image/guy-cook.webp" alt="koushi1">
+						<p>
+					大阪　太郎　SB Kitchen　代表取締役
+				</p>
+					</div>
+				</div>
+				<div class="instructor-2">
+					<div class="tag3">
+						<p>こんにちは。<br>
+	「SB Kitchen」教師の大阪　花子です。
+<br><br>
+	当ホームページにアクセスして頂きありがとうございます。
+<br><br>
+	毎日の食卓が楽しくなり、おもてなしが手軽に<br>できるレシピと
+	テーブルコーディネートを日々創作しております。
+<br><br>
+	食を通して、たくさんの方々の笑顔と幸せ<br>健康を
+	広めていけたらと心から願っております。
+<br><br>
+	今後も、たくさんの創作、提案をしていきますので<br>
+	どうぞよろしくお願い致します。</p>
+					</div>
+					<div class="tag4">
+						<img src="image/female-cook.webp" alt="koushi2">
+						<p>
+	大阪　花子　勤務3年目
+</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+			<ul>
+				<li>
+					<a href=""><i class="fab fa-instagram-square"></i></a>
+					<a href=""><i class="fab fa-facebook-square"></i></a>
+					<a href=""><i class="fab fa-twitter-square"></i></a>
+				</li>
+			</ul>
+			<h3>Copyright &copy;SB kitchen<br>
+				SB All Rights Reserved.</h3>
+		</div>
+	</header>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+	<script>
+		'use strict';
+		$(function () {
+			$('.main-carousel').flickity({
+				// options
+				autoPlay: 3000,
+				// contain: true, // 要素の余分なスクロールを防ぐ
+				freeScroll: true, // 特定の位置で固定させずにスクロール
+				cellAlign: 'left',
+				wrapAround: true,
+			});
+		});
+	</script>
+
+
+</body>
+</html>

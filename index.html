@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SB kitchen</title>
+	<meta name="description" content="お子様と気軽に通える料理教室">
+	<meta name="robots" content="noindex">
+	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+	<link rel="stylesheet" href="css/flickity.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="header1">
+		<p id="page-top"><a href="#"><span>Page Top</span></a></p>
+		<nav id="navi" class="wrapper">
+			<h1><a href="index.html"><img src="image/logo-5-2.png" alt=""></a></h1>
+			<ul class="navi">
+				<li><a href="index.html" class="cta"><span>Top</span></a></li>
+				<li><a href="about.html" class="cta"><span>About</span></a></li>
+				<li><a href="lesson.html" class="cta"><span>Lesson</span></a></li>
+				<li><a href="contact.html" class="cta"><span>Contact</span></a></li>
+			</ul>
+			<div class="burger-container"><img class="burger" src="image/hmb-1.png" width="50"></div>
+			<button class="hmb-btn" aria-label="メニューを開きます">
+				<span></span>
+			</button>
+		</nav>
+	</header>
+	<main>
+		<img src="image/AdobeStock_315666578.webp" alt="">
+	</main>
+	<section id="concept">
+		<div class="wrapper">
+			<div class="sub-title">
+				<p>Concept</p>
+			</div>
+			<h2 class="title-1">毎日のごはん、大切にできていますか？<img class="img1" src="image/carrot.webp" alt=""></h2>
+
+			<div class="item1">
+				<p>体や心にとって、<br>
+			安心安全で栄養あるものであってほしい。<br>
+			そんな思いで、食の整え方や、<br></p>
+			</div>
+			<div class="item2">
+				<p>私たちのからだを作っているのは、毎日のごはんです。<br>
+				その大切な食のこと、少し振り返ってみませんか。</p>
+			</div>
+			<div class="item3">
+				<p>「食」を丁寧に大切にすることは、<br>
+				未来の自分や家族へのギフトだと思っています。<br>
+				よりよい未来をつくるため、いまここから<br>出来る事を一緒に見つけましょう。</p>
+			</div>
+			<div class="vegetable">
+				<img class="img2" src="image/tomato.webp" alt="">
+				<img class="img3" src="image/radish.webp" alt="">
+			</div>
+		</div>
+	</section>
+	<section id="lesson">
+		<div class="lesson-text wrapper">
+			<h3>Lesson</h3>
+			<p>
+			コースは1dayレッスンとキッズレッスンの2コースに加え<br>
+			初めての方限定で、1dayレッスンを500円で受講頂けます。<br>
+			お得な体験レッスンも行っております。<br>
+			お気軽にお問合せ下さい。</p>
+		</div>
+
+		<ul class="img-item">
+			<li class="taiken"><img src="image/sushi.webp" alt="">
+				<p>SB Kitchen初めての方限定<br>
+								５００円体験レッスン</p>
+			</li>
+			<li class="kids"><img src="image/kids.webp" alt="">
+				<p>キッズレッスン</p>
+			</li>
+			<li class="day"><img src="image/curry.webp" alt="">
+				<p>1Dayレッスン</p>
+			</li>
+		</ul>
+		<div class="btn-container">
+			<button class="button">
+				<h4><a href="lesson.html">詳細はこちら</a></h4>
+			</button>
+		</div>
+	</section>
+	<section>
+		<div class="lesson-text wrapper">
+			<h3>Gallery</h3>
+			<div class="main-carousel">
+				<div class="carousel-cell"><img src="image/cook-2.webp" alt=""></div>
+				<div class="carousel-cell"><img src="image/AdobeStock_405544379.webp" alt=""></div>
+				<div class="carousel-cell"><img src="image/AdobeStock_422362135.webp" alt=""></div>
+				<div class="carousel-cell"><img src="image/AdobeStock_407356952.webp" alt=""></div>
+				<div class="carousel-cell"><img src="image/cook-7.webp" alt=""></div>
+				<div class="carousel-cell"><img src="image/AdobeStock_519498890.webp" alt=""></div>
+
+			</div>
+		</div>
+	</section>
+	<header>
+		<div class="container">
+			<ul>
+				<li>
+					<a href=""><i class="fab fa-instagram-square"></i></a>
+					<a href=""><i class="fab fa-facebook-square"></i></a>
+					<a href=""><i class="fab fa-twitter-square"></i></a>
+				</li>
+			</ul>
+			<h3>Copyright &copy;SB kitchen<br>
+			SB All Rights Reserved.</h3>
+		</div>
+	</header>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+	<script src="js/flickity.pkgd.min.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/script.js"></script>
+
+	<script>
+		'use strict';
+		$(function () {
+			$('.main-carousel').flickity({
+				// options
+				autoPlay: 3000,
+				// contain: true, // 要素の余分なスクロールを防ぐ
+				freeScroll: true, // 特定の位置で固定させずにスクロール
+				cellAlign: 'left',
+				wrapAround: true,
+			});
+		});
+	</script>
+
+
+</body>
+</html>
